@@ -1,0 +1,173 @@
+<?php include("connection.php");
+?>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/animate.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script src="js/js.js"></script>
+</head>
+
+<body style="background-color:white">
+        <div class="container-fluid" style=" background-color:whitesmoke">
+                <div class="row">
+                    <div class="col-md-7 col-sm-7">
+                        <div class="weblogo">
+                            <h2>
+                                <a href="#" style="color:black;"> <strong><u> M.</u></strong></a>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-sm-5">
+                        <div class="navlogo" onclick="openNav()" style="color:black">
+                            <i class="fas fa-bars fa-3x"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <a href="index.php">Home</a>
+                    <a href="about.php">About</a>
+                    <a href="services.php">Services</a>
+                    <a href="work.php">Work</a>
+                    <a href="blog.php">Blog</a>
+                    <a href="contact.php">Contact</a>
+                </div>
+            </div>
+            
+<section id="whatido" style="background-color:#f7f7f7;">
+        <div class="container animate-box slideInUp animated" data-aos="fade-up" data-aos-duration="2500">
+            <div class="col-md-12 text-center ntitle" style="padding-top:5em;margin-top:5em;">Contact</div>
+            <div class="col-md-12 text-center"><strong><i>\ \</i></strong><br><br><br><br><br>.</div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 desc animate-box slideInUp animated" data-aos="fade-up" data-aos-duration="2500">
+                    <h2>My Address <br><br><br></h2>
+                    <p> <i class="far fa-map"></i>&nbsp;&nbsp;&nbsp;88 West 21th Street, Suite 721 New York NY
+                        10016<br><br></p>
+                    <p><i class="fas fa-phone"></i>&nbsp;&nbsp;&nbsp;+ 1235 2355 98 <br> <br></p>
+                    <p><i class="far fa-envelope"></i>&nbsp;&nbsp;&nbsp;<a href="#">
+                            info@yoursite.com</a><br><br></p>
+                    <p><i class="fas fa-globe-americas "></i>&nbsp;&nbsp;&nbsp;<a href="#">www.yoursite.com</a></p>
+                    <br><br><br>
+                </div>
+                <div class="col-md-8 animate-box slideInUp animated" data-aos="fade-up" data-aos-duration="2500">
+                    <form method="post" action="contactinsert.php">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" name="name" id="" class="form-control form-control-lg"
+                                        placeholder="Enter name" required="">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="email" name="emailid" id="" class="form-control form-control-lg"
+                                        placeholder="Enter email address" required="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <input type="text" name="message" style="min-height: 200px;" class="form-control" id=""
+                                        placeholder="Enter message for me" required="none">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input type="submit" value="Send Message" style="background-color: #fd0;height:40px">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="information" style="background-color: rgba(196, 196, 196, 1)">
+        <div class="container animate-box slideInUp animated" data-aos="fade-up">
+            <div class="row information">
+                <div class="col-md-12 text-center" data-aos="fade-up" data-aos-duration="2500">
+                    <h1><strong>Subsribe Newsletter</strong></h1>
+                    <br><br>Subscribe our Newsletter and get latest update
+                    <br><br>
+                    <form class="form-inline" method="post" action="subscribe.php" data-aos="fade-up" data-aos-duration="1500">
+                        <input type="email" name="emailid" id="emailid" required=""
+                            placeholder="Enter your email address" class="inputemail">
+                        <input type="submit" value="Subscribe Now" class="submitemail">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container-fluid animate-box slideInUp animated" style="background-color:#002bdc; padding:7em;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 footerleft" data-aos="fade-up" data-aos-duration="2500">
+                        <h1 class="titlefooter"><strong> Lets Talk</strong></h1><br>
+                        <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
+                            unorthographic
+                            life One day however a small line of blind text</p><br>
+                        <button style="padding:10px;background-color:#fd0;color:black">Tell us about your
+                            project</button>
+                    </div>
+                    <div class="col-md-6 footerright" data-aos="fade-up" data-aos-duration="2500">
+                        <h1 class="titlefooter"><strong>Info</strong></h1><br>
+                        Email:youremail@mail.com
+                        <br>Phone: (+00)98765432 <br>
+                        Address<Address>291 South 211th Street, <br>Suite 721 New York NY 10016</Address>
+                        <br>Facebook Twitter Dribble
+                    </div>
+                </div>
+                <div class="row footerbanner" data-aos="fade-up" data-aos-duration="2500">
+                    <div class="col-md-12">
+                        <br><br><br>&copy; Copyright &copy;2019 All rights reserved | This template is made with love by
+                        <br> Colorlib Demo Images: Unsplash , Pexels
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.height = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.height = "0%";
+        }
+    </script>
+</body>
+
+</html>
