@@ -1,0 +1,377 @@
+body {
+    font-family: 'poppings', Arial, sans-serif;
+    line-height: 1.8;
+    font-size: 20px;
+    font-weight: 300;
+    color: #1a1a1a;
+}
+
+.ntitle {
+    font-size: 12px;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 10px;
+    font-weight: 600;
+}
+.ntitle2 {
+    font-size: 12px;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 10px;
+    font-weight: 400;
+}
+.htitle {
+    font-size: 3.5em;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+
+.box {
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+    padding: 1em;
+    margin: 2em;
+    font-size: 18px;
+}
+
+.case-img {
+    display: block;
+    height: 400px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.information {
+    color: black;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 7em 5em 7em 5em;
+    padding: 2em;
+    
+}
+
+.inputemail {
+    width: 400px;
+    padding: 10px;
+    border: 2px solid white;
+    border-bottom: 2px solid black;
+}
+
+.submitemail {
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border: none;
+}
+
+.footerleft {
+    font-size: 1.5em;
+    text-align: left;
+    color: white;
+    padding: 2em;
+}
+
+.footerright {
+    font-size: 1.5em;
+    text-align: right;
+    color: white;
+}
+
+.titlefooter {
+    font-size: 2.5em;
+    font-weight: 900;
+}
+
+.footerbanner {
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    padding: 1em;
+}
+
+.bgbanner1 {
+    background-image: url(../images/hero2.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    width: 100%;
+}
+
+.bgbanner2 {
+    background-color: #fd0;
+    height: 100%;
+    width: 100%;
+}
+
+.weblogo {
+    position: relative;
+    padding-left: 30%;
+    padding-top: 5%;
+}
+
+.navlogo {
+    position: relative;
+    padding-left: 40%;
+    padding-top: 10%;
+    color: white;
+}
+
+.bannertitle {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    font-size: 4em;
+    font-weight: 900;
+    color: black;
+    z-index: 10;
+}
+
+a {
+    color: black;
+}
+
+.bgbanner11 {
+    background-image: url(../images/hero1.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    width: 100%;
+}
+
+.customNavigation {
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 40%;
+    z-index: 10;
+}
+
+.customNavigation a {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.navbutton {
+    padding: 10px 30px;
+    margin-right: 10px;
+    border: 5px solid rgba(196, 196, 196, 1);
+    background-color: black;
+    color: white;
+}
+
+.social {
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+}
+
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    font-weight: 600;
+    background-color: rgba(0, 43, 220, .9);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    font-size: 5em;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: #f1f1f1;
+    text-decoration: line-through;
+    animation: strikethrough 6s 0.5s cubic-bezier(.55, 0, .1, 1) 1;
+    transition: transform 0.5s cubic-bezier(.55, 0, .1, 1);
+}
+
+.overlay a:hover::after {}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+    .overlay {
+        overflow-y: auto;
+    }
+    .overlay a {
+        font-size: 20px
+    }
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+.information2 {
+    margin: 4em 0em;
+    font-size: 1.5em;
+}
+
+.exptitle1 {
+    font-size: 2em;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    padding: 30px;
+}
+
+.exptitle {
+    font-size: 1.5em;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid black;
+    color: black;
+    padding: 2em 0;
+}
+
+.exptitle span {
+    color: rgb(83, 81, 81);
+}
+.skills{
+    padding:10px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.progress{
+    height: 20px;
+    box-shadow: none;
+    background: #e0e0e0;
+    overflow: visible;
+    border-radius: 30px;
+}
+.progress-bar{
+    background: #002bdc !important;
+}
+.progress-wrap span{
+  float: right;
+  color: #002bdc;
+  font-size: 0.9em;
+}
+.workbg1{
+    background:url(../images/work1.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 
+}
+.workbg2{
+    background:url(../images/work2.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 
+}
+.workbg3{
+    background:url(../images/work3.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 
+}
+.workbg4{
+    background:url(../images/work4.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 
+}
+.workbg5{
+    background:url(../images/work5.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 
+}
+.workbg6{
+    background:url(../images/work6.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 
+}
+.no-gutters{
+    margin:0 !important;
+    padding: 0 !important;
+}
+.wtitle h1{
+    color: #002bdc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wtitle{
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.worktitle{
+    position:absolute;
+    top: 20%;
+    right: 20%;
+    padding: 4em;
+    min-width: 400px;
+    width: 40%;
+}
+.worktitle2{
+    position:absolute;
+    top: 20%;
+    left: 20%;
+    padding: 4em;
+    min-width: 400px;
+    width: 40%;
+}
+.blogbox{
+    padding: 10px;
+    margin-bottom: 3em;
+}
+.blogbox a{
+    color:black;
+    font-weight: 600;
+    font-size: 1.8em;
+}
+.blogbox a:hover{
+    color: #002bdc;
+    text-decoration: none;
+}
+.desc{
+    font-size: 1.4em;    
+}
+.pad10{
+    padding:10px;
+}
+.form-control-lg{
+    height: 70px !important;
+}
